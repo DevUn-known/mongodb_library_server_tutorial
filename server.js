@@ -4,8 +4,7 @@ const book = require("./book");
 
 const app = express();
 
-const MONGO_URI =
-  "mongodb+srv://temp_user:tempPass@cluster0.u33em5h.mongodb.net/library?appName=Cluster0";
+const MONGO_URI = "Your mongodb connection string here";
 
 app.use(express.json());
 
